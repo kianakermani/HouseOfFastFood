@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kiana Kermani">
+    <meta name="description" content="The Official website for The House Of Fast Food">
+    <title>The House Of Fast Food</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="burger.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-h1">House Of Fast Food</h1>
+        <nav class="header-nav">
+            <ul class="header-ul">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>  
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sec1">
+        <figure>
+            <img src="ff4.webp" alt="Fast Food" title="Best Fast Food" width="1000" height="667">
+            <figcaption class="offscreen">
+                Try Our Delicious Fast Foods!
+            </figcaption>
+        </figure>
+    </section>
+
+
+    <main class="main">
+        <article class="main-article contact">
+            <section>
+                <h2>Our Location</h2>
+                <address class="add">
+                    Somwhere in city <br>
+                    Phone: <a href="tel:+1111111111">111-111-1111</a>
+                </address>
+            </section>
+            <section>
+                <h2>Our Contact Form</h2>
+                <form action="" method="get">
+                    <fieldset>
+                        <legend class="offscreen">Send Us A Message</legend>
+                        <p>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" placeholder="your name" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="your email" required>
+                        </p>
+                        <p>
+                            <label for="message">Your Message:</label>
+                            <textarea name="message" id="message" cols="30" rows="10"
+                                placeholder="Type your message here"></textarea>
+                        </p>
+                    </fieldset>
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>
+             <span class="nowrap">Copyright &copy;</span>
+             <span class="nowrap">House Of Fast Food</span>
+       </p>
+    </footer>
+</body>
+</html>
